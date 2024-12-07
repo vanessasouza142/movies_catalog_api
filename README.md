@@ -19,6 +19,7 @@ Esta API foi desenvolvida para gerenciar um catálogo de filmes. Ela oferece doi
    > bundle install
 4. Crie e migre o banco de dados SQLite:
    > rails db:create
+   
    > rails db:migrate
 
 ## Executando o Servidor
