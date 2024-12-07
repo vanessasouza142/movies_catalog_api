@@ -15,9 +15,9 @@ Esta API foi desenvolvida para gerenciar um catálogo de filmes. Ela oferece doi
    > git clone https://github.com/vanessasouza142/movies_catalog_api.git
 2. Navegue até o diretório do projeto: 
    > cd movies_catalog_api
-6. Instale as dependências do projeto:
+3. Instale as dependências do projeto:
    > bundle install
-7. Crie e migre o banco de dados SQLite:
+4. Crie e migre o banco de dados SQLite:
    > rails db:create
    > rails db:migrate
 
