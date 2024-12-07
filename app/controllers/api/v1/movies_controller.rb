@@ -10,7 +10,7 @@ class Api::V1::MoviesController < ApplicationController
 
     begin
       ImportMoviesService.import(file)
-      render json: { message: 'Filmes importados com sucesso!' }, status: :ok
+      render json: { message: 'Filmes importados e criados com sucesso!' }, status: :ok
     rescue ActiveRecord::RecordInvalid => e
       render json: { error: "Erro ao criar filme: #{e.record.errors.full_messages.join(', ')}" }, status: :unprocessable_entity
     rescue CSV::MalformedCSVError => e
